@@ -1,0 +1,48 @@
+.aboutMe{
+    position: relative;
+    top: 35px;
+    width: 75vw;
+    height: 70%;
+    border: 2px solid white;
+    border-top:15px solid white;
+    border-radius: 10px;
+    background-color:#002638;
+    left:50%;
+    transform: translateX(-50%);  
+    font-family: Trebuchet MS,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Tahoma,sans-serif;
+    overflow-y: auto;
+    padding-bottom: 15px;
+}
+
+#secondScreenTitle{
+    position: relative;
+    top: 20px;
+        font-family: Trebuchet MS,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Tahoma,sans-serif;
+       font-variant: small-caps;
+    text-align: center;
+color: white;
+}
+
+@media screen and (min-height:500px){
+    .aboutMe{
+        top: 100px;
+    }
+    #secondScreenTitle{
+        top: 80px;
+/*        color: red;*/
+    }
+    
+}
+
+@media only screen and (min-width:475px){
+    #secondScreenTitle{
+	font-size: 20px;
+    }
+}
+
+@media only screen and (min-width:750px){
+    .aboutMe{
+            width: 600px;
+    }
+
+}

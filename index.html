@@ -1,0 +1,323 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Jayesh Ranjan</title>
+    <link rel="stylesheet" href="./css/styles.css">
+    <link rel="stylesheet" href="./css/animate.css">
+    <link rel="stylesheet" href="./css/firstscreen.css">
+    <link rel="stylesheet" href="./css/secondscreen.css">
+    <link rel="stylesheet" href="./css/thirdscreen.css">
+    <link rel="stylesheet" href="./css/thirdscreen-animation.css">
+    <link rel="stylesheet" href="./css/fourthscreen-default.css" media="screen and (max-width: 600px)">
+    <link rel="stylesheet" href="./css/fourthscreen-600W.css" media="screen and (min-width: 600px) and (max-width: 1000px)">
+    <link rel="stylesheet" href="./css/fourthscreen-1000W.css" media="screen and (min-width: 1000px)">
+    <link rel="stylesheet" href="./css/fifthscreen.css">
+    
+    <link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    
+
+
+<!--    <link rel="stylesheet" media='screen and (min-width:600px)' href="./css/thirdscreenW600.css"/>-->
+
+
+    <script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
+    <script src="http://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>    
+    <script src="./js/main.js"></script>
+    <script src="./js/thirdscreen.js"></script>
+    <script src="./js/fourthscreen.js"></script>
+
+
+
+</head>
+<body onresize=updateScreen(); onload=takeAction();>
+    <div id=test style="position:fixed"></div>
+    <div id="location" style="position:fixed; top:20px;"></div>
+    <div class="firstScreen">
+<!--        <p id="demo">TESt</p>-->
+<!--        <div>TEST</div>-->
+
+        <div class="firstScreenButtonWrapper firstScreenButtonText">
+            <div id="AboutMeButton" class="firstScreenButton animated fadeInLeftBig" onclick="aboutMeOnClick();">About me</div>
+            <div id="ResumeButton" class="firstScreenButton animated fadeInLeft" onclick="resumeOnClick();">Résumé</div>
+            <div id="ProjectsButton" class="firstScreenButton animated fadeInRight" onclick="projectsOnClick();">Projects</div>
+            <div id="ContactMeButton" class="firstScreenButton animated fadeInRightBig" onclick="contactMeOnClick();">Contact Me</div>
+        </div>
+    </div>
+    <div class="secondScreen">
+        <div id="secondScreenTitle">About Me!</div>
+        <div class="aboutMe">
+            <div class="aboutMeContainer">
+                <br>
+                <p>
+                    <font color="#ff6c6c">&ensp;&gt;&gt;&gt; print </font>
+                    <font style="margin-right:-5px;" color="#c890ff">self.</font>
+                    <font color="#90ff90">name</font>
+                </p>
+                <p>
+                    <font color="#6cffff">&emsp;Jayesh Ranjan</font>
+                </p>
+                <br>
+                <p>
+                    <font color="#ff6c6c">&ensp;&gt;&gt;&gt; print </font>
+                    <font style="margin-right:-5px;" color="#c890ff">self.</font>
+                    <font color="#90ff90">oirgin</font>
+                </p>
+                <p>
+                    <font color="#6cffff">&emsp;New Delhi, IN</font>
+                </p>
+                <br>
+                <p>
+                    <font color="#ff6c6c">&ensp;&gt;&gt;&gt; print </font>
+                    <font style="margin-right:-5px;" color="#c890ff">self.</font>
+                    <font color="#90ff90">education</font>
+                </p>
+                <p>
+                    <font color="#6cffff">&emsp;Stony Brook University</font>
+                </p>
+                <br>
+                <p>
+                    <font color="#ff6c6c">&ensp;&gt;&gt;&gt; print </font>
+                    <font style="margin-right:-5px;" color="#c890ff">self.</font>
+                    <font color="#90ff90">major</font>
+                </p>
+                <p>
+                    <font color="#6cffff">&emsp;Computer Science</font>
+                </p>
+                <br>
+                <p>
+                    <font color="#ff6c6c">&ensp;&gt;&gt;&gt; print </font>
+                    <font style="margin-right:-5px;" color="#c890ff">self.</font>
+                    <font color="#90ff90">major</font>
+                </p>
+                <p>
+                    <font color="#6cffff">&emsp;May 2018</font>
+                </p>
+                <br>
+                <p>
+                    <font color="#ff6c6c">&ensp;&gt;&gt;&gt; print </font>
+                    <font style="margin-right:-5px;" color="#c890ff">self.</font>
+                    <font color="#90ff90">interests</font>
+                </p>
+                <p>
+                    <font color="#6cffff">&emsp;["Coding", "Laptops", "Movies", "Music", "Food"]</font>
+                </p>
+            </div>
+        </div>
+    </div>
+    <div class="thirdScreen">
+<!--            <button onclick='test1()'>TEST</button>-->
+        <div id="thirdScreenInnerWrapper">
+            <div id="Resume">
+                Résumé
+            </div>
+            <div id=EducationWrapper>
+                <div id=Education>
+                    <p>
+                        <font class="ResumeSectionHeaderFont">Education</font>
+                        <font class="ResumeSectionHeaderDuration">2014-2018</font>
+                    </p>
+                </div>
+                <div id=EducationInnerWrapper>
+                    <div style="background-image: url(./images/SBU-Logo-Red.png)" id=EducationPicture></div>
+                    <div id=EducationContent style="text-align">
+                        <ol>
+                            <li>Systematic Approch to Coding</li>  
+                            <li>Ethics in Information Systems</li>
+                            <li>C and System Fundamentals</li>
+                            <li>Theory of Computation</li>
+                            <li>Security Fundamentals</li>
+                            <li>Scripting Languages</li>
+                            <li>Operating Systems</li>
+                            <li>Technical Writing</li>
+                            <li>Web Security</li>                 
+                            <li>Data Structures</li>
+                            <li>Computer Networks</li>
+                            <li>Software Engineering</li>
+                            <li>Discreete Mathematics</li>
+                            <li>Probablity and Statistics</li> 
+                            <li>Finite Structures and Graphs</li> 
+                            <li>MIPS and System Architecture</li>
+                            <li>Object Oriented Programming</li>                    
+
+                        </ol>
+                    </div>
+                </div>
+            </div>
+            <div id=WorkExperienceWrapper>
+                <div id="WorkExperience">
+                    Experience     
+                </div>
+                <div id=ExperienceInnerWrapper>
+                    <div style='border-left:1px solid black' class=ExperienceType>
+                        <font class="ResumeSectionHeaderFont">RA</font>
+                        <font class="ResumeSectionHeaderDuration">May 17' - Present</font>
+                        <div class=ExperienceContentWrapper>   
+                            <div style="background-image: url(./images/RA.png);" class='ExperienceTypeIcon'></div>
+                            <div class='ExperienceTypeDescription'>
+                                <div class=ExperienceTitle>
+                                    <div id=RA-Advisor>Advisor: P. Fodor</div>
+                                    <div>Project: Code Blue App</div>
+                                    <div>Role: Lead Programmer</div>
+                                </div>
+                                <div class=ExperienceDescription>
+                                An App is used for Recommending actions during Cardiac Arrest. Monitor and Analyze the procedure for more effectiveness.
+                                </div>
+                                <div class="EducationTechnologiesWrapper">
+                                    <div id="nodeJSWrapper" class=EducationTechnologiesElement>
+                                        <div id="nodeJS">nodeJS</div>
+                                    </div>
+                                    <div id="SwiftWrapper" class=EducationTechnologiesElement>
+                                        <div id="Swift" class=EducationTechnologiesInnerWrapper>Swift 3</div>
+                                    </div>
+                                    <div id="NoSQLWrapper" class=EducationTechnologiesElement>
+                                        <div id="NoSQL">NoSQL</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div style='border-right:1px solid black' class=ExperienceType>
+                        <font class="ResumeSectionHeaderFont">Internship</font>
+                        <font class="ResumeSectionHeaderDuration">July 17' - Present</font>
+                        <div class=ExperienceContentWrapper>   
+                            <div style="background-image: url(./images/SBU-Logo.png);" class='ExperienceTypeIcon'></div>
+                            <div class='ExperienceTypeDescription'>
+                                <div class=ExperienceTitle>
+                                    <div id=Intern-Employer>Employer: V. Mullick</div>
+                                    <div>Computer Science Dept.</div>
+                                    <div>Role: Web and Database</div>
+                                </div>
+                                <div class=ExperienceDescription>
+                                    Managing Database, Adding and Modifying contents on Stony Brook, Computer Science related websites.
+                                </div>
+                                <div class="EducationTechnologiesWrapper">
+                                    <div id="jQueryWrapper" class=EducationTechnologiesElement>
+                                        <div id="jQuery">jQuery</div>
+                                    </div>
+                                    <div id="SQLWrapper" class=EducationTechnologiesElement>
+                                        <div id="SQL">SQL</div>
+                                    </div>
+                                    <div id="HTML5Wrapper" class=EducationTechnologiesElement>
+                                        <div id="HTML5">HTML5</div></div>
+                                    <div id="CSS3Wrapper" class=EducationTechnologiesElement>
+                                        <div id="CSS3">CSS3</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div style='border-left:1px solid black' class=ExperienceType>
+                        <font class="ResumeSectionHeaderFont">Senior TA</font>
+                        <font class="ResumeSectionHeaderDuration">Aug 16' - Present</font>
+                        <div class=ExperienceContentWrapper>   
+                            <div style="background-image: url(./images/Senior-TA.png);" class='ExperienceTypeIcon'></div>
+                            <div class='ExperienceTypeDescription'>
+                                <div class=ExperienceTitle>
+                                    <div id=S-TA-Instructor1>Instructor: K. McDonnell</div>
+                                    <div id=S-TA-Instructor2>Instructor: M.  Taskbook</div>
+                                    <br>
+                                </div>
+                                <div class=ExperienceDescription>
+                                Primary roles include, but not limited to; Assisting students during lab hours, writing labs and homeworks, grading assignments, holding office hours.
+                                </div>
+                                <div class="EducationTechnologiesWrapper">
+                                    <div id="Python1Wrapper" class=EducationTechnologiesElement>
+                                        <div id="Python1">Python</div></div>
+                                    <div id="LaTeXWrapper" class=EducationTechnologiesElement>
+                                        <div id="LaTeX">LaTeX</div>
+                                    </div>
+                                    <div id="GitWrapper" class=EducationTechnologiesElement>
+                                        <div id="Git">Git</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div style='border-right:1px solid black' class=ExperienceType>
+                        <font class="ResumeSectionHeaderFont">TA</font>
+                        <font class="ResumeSectionHeaderDuration">Jan 16' - July 16'</font>
+                        <div class=ExperienceContentWrapper>   
+                            <div style="background-image: url(./images/TA.png);" class='ExperienceTypeIcon'></div>
+                            <div class='ExperienceTypeDescription'>
+                                <div class=ExperienceTitle>
+                                    <div id=TA-Instructor1>Instructor: K. McDonnell</div>
+                                    <div id=TA-Instructor2>Instructor: M.  Taskbook</div>
+                                    <div id=TA-Instructor3>Instructor: P.  Fodor</div>
+                                </div>
+                                <div class=ExperienceDescription>
+                                Primary roles include, but not limited to; Assisting students during lab hours, holding office hours.
+                                </div>
+                                <div class="EducationTechnologiesWrapper">
+                                    <div id="Python2Wrapper" class=EducationTechnologiesElement>
+                                        <div id="Python2">Python</div></div>
+                                    <div id="JavaWrapper" class=EducationTechnologiesElement>
+                                        <div id="Java">Java</div></div>
+                                    <div id="CWrapper" class=EducationTechnologiesElement>
+                                        <div id="C" class=EducationTechnologiesInnerWrapper>C</div></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+  </div>
+    <div class="fourthScreen">
+        <div id="fourthSubScreen">     
+            <div id=fourthScreenTitle>Projects</div>
+            <div id=fourthScreenContent>
+                <div id=screenHeader></div>
+                <div id=screenContent>
+                    <div id=screenContentWrapper>
+                        <div id="prevButtonBig"><i id=chevron_leftBig class="material-icons">chevron_left</i></div>
+                        <div id=projectDisplay></div>
+                        <div id="projectDescription">
+                            Custom implementation of bash that lets user pipe output to several files, run executables, and custom features such as displaying job/processes list, using key bindings
+                        </div>
+                        <div id="nextButtonBig"><i id=chevron_leftBig class="material-icons">chevron_right</i></div>
+                    </div>
+                
+                </div>
+                <div id=screenButtonWrapper>
+                    <div class=screenButton id=backButton><i id=chevron_left class="material-icons">chevron_left</i></div>
+                    <div class=screenButton id=homeButton><i id=radio_button_unchecked class="material-icons">radio_button_unchecked</i></div>
+                    <div class=screenButton id="nextButton"><i id=chevron_left class="material-icons">chevron_right</i></div>
+                </div>
+                <div id=screenFooter>
+                    <div id="powerButton"><i id=radio_button_checked class="material-icons">radio_button_checked</i></div>
+
+                </div>         
+            </div>          
+        </div>
+<!--
+        <div id=desktopNeck></div>
+        <div id="desktopStand"></div>
+-->
+    </div>
+    <div class=fifthScreen>
+        <div id="fifthSubScreen">
+            <div id=copyright>© 2017 Jayesh Ranjan.</div>
+            <div id=contactInfo>
+                <div id="linkedIn" class=contactInfoElement>
+                    <img src="./images/linkedIn-white.png" title="LinkedIn" width="20" height="20">               
+                </div>
+                <div id="facebook" class=contactInfoElement>
+                    <img src="./images/facebook-white.png" title="Facebook" width="20" height="20"> 
+                </div>
+                <div id="email" class=contactInfoElement>
+                    <img src="./images/gmail-white.png" title="Email" width="20" height="26"> 
+                </div>
+            <div id='emailID' style='display:none'>jayesh.ranjan20@gmail.com</div>
+
+            </div>
+
+        </div>
+    </div>
+</body>
+</html>

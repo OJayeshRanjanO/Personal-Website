@@ -1,0 +1,158 @@
+#SwiftWrapper{
+    transition-duration: 1s;
+}
+.ExperienceType:hover #SwiftWrapper{
+    color: red;
+    border-bottom-color: orange;
+    border-right-color: red;
+    border-left-color: red;
+    border-top-color: orange;
+    
+}
+
+#nodeJSWrapper{
+    transition-duration: 1s;
+}
+.ExperienceType:hover #nodeJSWrapper{
+    color: darkgreen;
+    border-bottom-color: black;
+    border-right-color: darkgreen;
+    border-left-color: darkgreen;
+    border-top-color: black;
+    
+}
+
+#NoSQLWrapper{
+    transition-duration: 1s;
+}
+.ExperienceType:hover #NoSQLWrapper{
+    color: darkgreen;
+    border-bottom-color: darkgreen;
+    border-right-color: grey;
+    border-left-color: grey;
+    border-top-color: darkgreen;
+    
+}
+
+#HTML5Wrapper{
+    transition-duration: 1s;
+}
+.ExperienceType:hover #HTML5Wrapper{
+    color: orange;
+    border-bottom-color: orangered;
+    border-right-color: orange;
+    border-left-color: orange;
+    border-top-color: orangered;
+    
+}
+
+
+#CSS3Wrapper{
+    transition-duration: 1s;
+}
+.ExperienceType:hover #CSS3Wrapper{
+    color: deepskyblue;
+    border-bottom-color: darkblue;
+    border-right-color: deepskyblue;
+    border-left-color: deepskyblue;
+    border-top-color: darkblue;
+    
+}
+
+
+#SQLWrapper{
+    transition-duration: 1s;
+}
+.ExperienceType:hover #SQLWrapper{
+    color: #424142;
+    border-bottom-color: red;
+    border-right-color: #424142;
+    border-left-color: #424142;
+    border-top-color: red;
+    
+}
+
+
+#jQueryWrapper{
+    transition-duration: 1s;
+}
+.ExperienceType:hover #jQueryWrapper{
+    color: black;
+    border-bottom-color: darkblue;
+    border-right-color: black;
+    border-left-color: black;
+    border-top-color: darkblue;
+    
+}
+
+#Python1Wrapper{
+    transition-duration: 1s;
+}
+.ExperienceType:hover #Python1Wrapper{
+    color: goldenrod;
+    border-bottom-color: midnightblue;
+    border-right-color: goldenrod;
+    border-left-color: goldenrod;
+    border-top-color: midnightblue;
+    
+}
+
+#LaTeXWrapper{
+    transition-duration: 1s;
+}
+.ExperienceType:hover #LaTeXWrapper{
+    color:darkcyan;
+    border-bottom-color:bisque;
+    border-right-color: darkcyan;
+    border-left-color: darkcyan;
+    border-top-color: bisque;
+    
+}
+
+#GitWrapper{
+    transition-duration: 1s;
+}
+.ExperienceType:hover #GitWrapper{
+    color:crimson;
+    border-bottom-color:black;
+    border-right-color: crimson;
+    border-left-color: crimson;
+    border-top-color: black;
+    
+}
+
+#Python2Wrapper{
+    transition-duration: 1s;
+}
+.ExperienceType:hover #Python2Wrapper{
+    color: midnightblue;
+    border-bottom-color: goldenrod;
+    border-right-color: midnightblue;
+    border-left-color: midnightblue;
+    border-top-color: goldenrod;
+    
+}
+
+#JavaWrapper{
+    transition-duration: 1s;
+}
+.ExperienceType:hover #JavaWrapper{
+    color: dimgray;
+    border-bottom-color: crimson;
+    border-right-color: lightgrey;
+    border-left-color: lightgrey;
+    border-top-color: crimson;
+    
+}
+
+#CWrapper{
+    transition-duration: 1s;
+}
+.ExperienceType:hover #CWrapper{
+    color: dimgray;
+    border-bottom-color: darkblue;
+    border-right-color: lightgrey;
+    border-left-color: lightgrey;
+    border-top-color: darkblue;
+    
+}

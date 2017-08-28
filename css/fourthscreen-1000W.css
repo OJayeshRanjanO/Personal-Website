@@ -1,0 +1,226 @@
+
+#fourthSubScreen{
+    position: relative;
+    width: 950px;
+    height: 620px;
+    left:50%;
+    top:15px;
+    transform: translateX(-50%);
+        font-family: Trebuchet MS,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Tahoma,sans-serif;
+
+}
+
+#fourthScreenTitle{
+    position: inherit;
+    
+/*    top:20px;*/
+/*    left:10px;*/
+/*    margin-top: 50px;*/
+    font-variant: small-caps;
+    text-align: center;
+    
+    
+}
+
+
+/*Phone*/
+#fourthScreenContent{
+    position: relative;
+    top: 50px;
+    height: 550px;
+    width: 950px;
+    left:50%;
+    transform: translateX(-50%);
+/*    background-color: white;*/
+    
+}
+#screenHeader{
+    position: relative;
+    background-color: silver;
+    border-top: solid 10px silver;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    height: 20px;
+
+}
+
+#screenContent{
+/*    margin-top: 10px;*/
+/*    http://cdn.wallpapersafari.com/87/32/jL8Bdh.png*/
+/*    background-image: url('../images/mountainNight.png');*/
+    background-repeat: no-repeat;
+    background-size: 950px 450px;
+    position: relative;
+    height: 450px;
+    background-color: white;
+    border-left: 10px solid silver;
+    border-right: 10px solid silver;
+/*
+    border-top: 1px solid white;
+    border-bottom: 1px solid white;
+*/
+    word-wrap: break-word;
+    overflow-y: auto;
+/*    padding: 2px;*/
+    background-position: 0px 0px;
+	background-repeat: repeat-x;
+
+	animation: animatedBackground 5000s linear infinite;
+}
+#prevButtonBig{
+    position: relative;
+    float:left;
+    top:30px;
+    height: 380px;
+    width:50px;
+    left:40px;
+    background-color: black;
+    opacity: 0.2;
+    transition-duration: 1s;
+}
+
+#prevButtonBig:hover{
+    opacity: 0.5;
+    cursor: pointer;
+}
+
+#chevron_leftBig{
+    position: relative;
+    font-size: 50px;
+    top:50%;
+    transform: translateY(-50%);
+    display: block;
+}
+
+#nextButtonBig{
+    position: relative;
+    float:right;
+    top:30px;
+    right:-260px;
+    height: 380px;
+    width:50px;
+        background-color: black;
+    opacity: 0.2;
+    transition-duration: 1s;
+}
+
+#nextButtonBig:hover{
+    opacity: 0.5;
+    cursor: pointer;
+}
+
+#chevron_rightBig{
+    position: relative;
+    font-size: 50px;
+    top:50%;
+    transform: translateY(-50%);
+    display: block;
+}
+
+#projectDisplay{
+    position: relative;
+    top:30px;
+    left:100px;
+    float:left;
+    
+    background-image: url("https://media.giphy.com/media/o8NBkz9xgRejS/giphy.gif");
+    background-size: 300px 368px;
+    background-repeat: no-repeat;
+    height: 380px;
+    width:300px;
+    
+    border:2px solid white;
+    border-top: 10px solid white;
+    border-radius: 5px;
+    
+    opacity: 0.7;
+/*
+    border-top: 2px solid grey;
+    border-bottom: 2px solid grey;
+*/
+}
+
+#projectDescription{
+    position: relative;
+        float:right;
+    top:30px;
+    right:150px;
+    background-color: rgb(37, 37, 37);
+    opacity: 0.7;
+    border:2px solid white;
+    border-top: 10px solid white;
+    border-radius: 5px;
+    
+    height: 380px;
+    width:300px;
+    padding:10px;
+    
+     color:white;   
+    text-align: justify;
+    font-size: 19px;
+font-family: 'Roboto', sans-serif;
+
+}
+
+
+
+#screenButtonWrapper{
+    position: relative;
+    height: 30px;
+    background-color:#1e1e1e;
+    display: none;
+}
+#screenFooter{
+    position: relative;
+    background-color: silver;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    height: 80px;
+    
+}
+#powerButton{
+        position: relative;
+    width: 50px;
+    height: 100%;
+        left:50%;
+/*    padding-top:20px;*/
+    transform: translateX(-50%);
+}
+#radio_button_checked{
+    position: relative;
+    width: 50px;
+    height:50px;
+    font-size: 50px;
+    text-align: center;
+    color:dodgerblue;
+    top:50%;
+    transform: translateY(-50%);
+    transition-duration: 1s
+}
+#radio_button_checked:hover{
+        color:darkblue;
+    text-shadow: 0px 0px 20px grey;
+    cursor: pointer;
+    
+}
+
+#desktopNeck{
+    position: relative;
+    width:100px;
+    height: 100px;
+    background-color: silver;
+    left:50%;
+border-top-left-radius: -100%;   
+    transform: translateX(-50%);
+}
+
+#desktopStand{
+        position: relative;
+    width:500px;
+    height: 20px;
+    background-color: silver;
+    left:50%;
+border-top-left-radius: -100%;   
+    transform: translateX(-50%);
+    
+}
