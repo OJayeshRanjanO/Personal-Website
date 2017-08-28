@@ -52,44 +52,44 @@ function takeAction(){
     var dt = new Date();
     if (dt.getHours() >= 3 && dt.getHours() < 9){
         //Morning
-        $('.firstScreen').css('background-image','url(./images/mountainDawn.png)')
-        $('.secondScreen').css('background-color','#275977')
+        $('#firstScreen').css('background-image','url(./images/mountainDawn.png)')
+        $('#secondScreen').css('background-color','#275977')
         $('.aboutMe').css('background-color','#103535')
-        $('.fifthScreen').css('background-color','#275977')
+        $('#fifthScreen').css('background-color','#275977')
         if (w >= 600){
             $("#screenContent").css('background-image','url(./images/mountainDawn.png)')
         }
     }else if(dt.getHours() >= 9 && dt.getHours() < 15){
         //Day
-         $('.firstScreen').css('background-image','url(./images/mountainNoon.png)')
-        $('.secondScreen').css('background-color','#3f682b')
+         $('#firstScreen').css('background-image','url(./images/mountainNoon.png)')
+        $('#secondScreen').css('background-color','#3f682b')
         $('.aboutMe').css('background-color','#003802')
-        $('.fifthScreen').css('background-color','#3f682b')
+        $('#fifthScreen').css('background-color','#3f682b')
         if (w >= 600){
             $("#screenContent").css('background-image','url(./images/mountainNoon.png)')
         }
     }else if(dt.getHours() >= 15 && dt.getHours() < 21){
         //Evening
-        $('.firstScreen').css('background-image','url(./images/mountainDusk.png)')
+        $('#firstScreen').css('background-image','url(./images/mountainDusk.png)')
         $('.secondScreen').css('background-color','#74008c')
         $('.aboutMe').css('background-color','#2e0038')
-        $('.fifthScreen').css('background-color','#74008c')
+        $('#fifthScreen').css('background-color','#74008c')
         if (w >= 600){
             $("#screenContent").css('background-image','url(./images/mountainDusk.png)')
         }
     }else if((dt.getHours() >= 21) || (dt.getHours() < 3)){//Night
-        $('.firstScreen').css('background-image','url(mountainBlue1.png)')
-        $('.secondScreen').css('background-color','#4b2e83')
+        $('#firstScreen').css('background-image','url(mountainBlue1.png)')
+        $('#secondScreen').css('background-color','#4b2e83')
         $('.aboutMe').css('background-color','#002638')
-        $('.fifthScreen').css('background-color','#4b2e83')
+        $('#fifthScreen').css('background-color','#4b2e83')
         if (w >= 600){
             $("#screenContent").css('background-image','url(mountainBlue1.png)')
         }
     }else{
-        $('.firstScreen').css('background-image','url(mountainBlue1.png)')
-        $('.secondScreen').css('background-color','#4b2e83')
+        $('#firstScreen').css('background-image','url(mountainBlue1.png)')
+        $('#secondScreen').css('background-color','#4b2e83')
         $('.aboutMe').css('background-color','#002638')
-        $('.fifthScreen').css('background-color','#4b2e83')
+        $('#fifthScreen').css('background-color','#4b2e83')
         if (w >= 600){
             $("#screenContent").css('background-image','url(mountainBlue1.png)')
         }
