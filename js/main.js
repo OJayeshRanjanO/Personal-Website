@@ -6,20 +6,16 @@
 /*global $, window, document */
 
 // Simple jQuery event handler
-
-//    <script src="http://code.jquery.com/jquery-1.10.1.min.js"
-//    <script src="http://code.jquery.com/jquery-migrate-1.2.1.min.js
-
 function updateScreen(){
     var w = $(document).innerWidth();
-    var h = $(document).innerHeight();
+//    var h = $(document).innerHeight();
     var h = $(".firstScreen").innerHeight() + $(".secondScreen").innerHeight() + $(".thirdScreen").innerHeight() + $(".fourthScreen").innerHeight() + $(".fifthScreen").innerHeight();
     var x = $("#WorkExperience").innerWidth();
     
 //    var dt = new Date();
 //var time = dt.getHours() + ":" + dt.getMinutes() + ":" + dt.getSeconds();
-    var txt = w + " X " + h
-    document.getElementById("test").innerHTML = txt;
+//    var txt = w + " X " + h
+//    document.getElementById("test").innerHTML = txt;
     
     if (w >= 600){
         
@@ -82,22 +78,22 @@ function takeAction(){
             $("#screenContent").css('background-image','url(./images/mountainDusk.png)')
         }
     }else if((dt.getHours() >= 21) || (dt.getHours() < 3)){//Night
-<<<<<<< HEAD
         $('.firstScreen').css('background-image','url(mountainBlue.png)')
-=======
-//        alert('me')
-        $('.firstScreen').css('background-image','url(mountainBlue1.png)')
->>>>>>> gh-pages
         $('.secondScreen').css('background-color','#4b2e83')
         $('.aboutMe').css('background-color','#002638')
         $('.fifthScreen').css('background-color','#4b2e83')
         if (w >= 600){
-<<<<<<< HEAD
             $("#screenContent").css('background-image','url(mountainBlue.png)')
-=======
-            $("#screenContent").css('background-image','url(mountainBlue1.png)')
->>>>>>> gh-pages
         }
+    }else{
+        $('.firstScreen').css('background-image','url(mountainBlue.png)')
+        $('.secondScreen').css('background-color','#4b2e83')
+        $('.aboutMe').css('background-color','#002638')
+        $('.fifthScreen').css('background-color','#4b2e83')
+        if (w >= 600){
+            $("#screenContent").css('background-image','url(mountainBlue.png)')
+        }
+        
     }
     var time = dt.getHours() + ":" + dt.getMinutes() + ":" + dt.getSeconds();
 //    document.getElementById("demo").innerHTML = time; 
@@ -118,11 +114,6 @@ var txt = setInterval(function(){ takeAction()}, 1000);
 
 
 $(document).ready(function(){
-    
-//    document.write(
-//      unescape("%3Cscript src='http://code.jquery.com/jquery-migrate-1.2.1.min.js' type='text/javascript'%3E%3C/script%3E")
-//    );
-    
     $('html, body').animate({
         scrollTop: $(".firstScreen").offset().top
     }, 1);
