@@ -51,7 +51,7 @@
     word-wrap: break-word;
     overflow-y: auto;
 /*    padding: 2px;*/
-/*        background-image: url('../images/mountainNight.png');*/
+        background-image: url('../images/mountainNight.png');
 /*    background-repeat: no-repeat;*/
     background-size: 950px 450px;
     animation: animatedBackground 5000s linear infinite;

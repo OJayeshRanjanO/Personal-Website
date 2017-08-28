@@ -1,4 +1,4 @@
-
+/**/
 #fourthSubScreen{
     position: relative;
     width: 950px;
@@ -47,7 +47,7 @@
 #screenContent{
 /*    margin-top: 10px;*/
 /*    http://cdn.wallpapersafari.com/87/32/jL8Bdh.png*/
-/*    background-image: url('../images/mountainNight.png');*/
+    background-image: url('../images/mountainNight.png');
     background-repeat: no-repeat;
     background-size: 950px 450px;
     position: relative;

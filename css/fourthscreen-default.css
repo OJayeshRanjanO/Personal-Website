@@ -47,7 +47,7 @@
 }
 #screenContent{
 /*    margin-top: 10px;*/
-/*        background-image: url('../images/mountainNight.png');*/
+        background-image: url('../images/mountainNight.png');
 /*    background-repeat: no-repeat;*/
     background-size: 950px 350px;
     position: relative;
