@@ -93,6 +93,7 @@ function takeAction(){
 var txt = setInterval(function(){ takeAction()}, 1000);
 
 
+
 //$(window).onload(function(){
          var description = 'Code Blue App Project for Dr Paul Richman of Stony Brook University - School of Medicine. This app serves as a monitoring and recommendation tool for someone who had Cardiac Arrest. The functionalities of this app includes, but not limited to -  monitor medication, procedures.';
      var url = 'https://media.giphy.com/media/13gcxAXZP1cLC/giphy.gif';
