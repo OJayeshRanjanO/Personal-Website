@@ -78,12 +78,12 @@ function takeAction(){
             $("#screenContent").css('background-image','url(./images/mountainDusk.png)')
         }
     }else if((dt.getHours() >= 21) || (dt.getHours() < 3)){//Night
-        $('.firstScreen').css('background-image','url(./images/mountainBlue.png)')
+        $('.firstScreen').css('background-image','url(mountainBlue.png)')
         $('.secondScreen').css('background-color','#4b2e83')
         $('.aboutMe').css('background-color','#002638')
         $('.fifthScreen').css('background-color','#4b2e83')
         if (w >= 600){
-            $("#screenContent").css('background-image','url(./images/mountainBlue.png)')
+            $("#screenContent").css('background-image','url(mountainBlue.png)')
         }
     }
     var time = dt.getHours() + ":" + dt.getMinutes() + ":" + dt.getSeconds();
